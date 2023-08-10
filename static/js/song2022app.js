@@ -4,6 +4,11 @@ d3.json("static/resources/songTwentyTwo.json").then(function(data) {
     // Extract the items array from the JSON data
     let items = data.tracks.items;
 
+    // Sort items by popularity in descending order
+    items.sort(function(a, b) {
+        return b.popularity - a.popularity;
+    });
+
     // Select the table body
     let tableBody = d3.select('#songTable tbody');
 
