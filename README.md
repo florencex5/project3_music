@@ -7,7 +7,7 @@ Music, a versatile language, has the power to evoke emotions and bring people to
 Create a Spotify’s developer account to get the `CLIENT ID` and `CLIENT SECRETE`([Spotify Developer](https://developer.spotify.com/))
 
 ## Introduction of Spotipy Library
-- Our project is based on Spotipy Library (a lightweight Python library for the Spotify Web API)
+- Our project is based on Spotipy Library (a lightweight Python library for the Spotify Web API / [Spotipy Documentation](https://spotipy.readthedocs.io/en/2.22.1/))
 - With Spotipy you get full access to all of the music data provided by the Spotify platform.
 - Example:`sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET))`
 
