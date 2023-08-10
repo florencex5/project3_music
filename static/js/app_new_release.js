@@ -2,7 +2,7 @@ let albums;
 const albumDropdown = d3.select("#select-album");
 
 // Fetch the JSON data from "static/js/new_releases.json" only once
-d3.json("static/js/new_releases.json").then(function(data) {
+d3.json("static/resources/new_releases.json").then(function(data) {
   // Extract relevant information from the JSON data
   albums = data.albums.items; // Assign the data to the albums variable
 
