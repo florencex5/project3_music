@@ -1,0 +1,110 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+  }
+
+/* customize all <p> tags */  
+p {
+    font-family: Mali;
+    font-size: 15px;
+}
+
+/* customize introduction paragraph */
+.introduction {
+    font-family: Mali;
+    font-size: 20px;
+} 
+
+/* customize h2 font family  */
+.display-3 {
+    font-family: Trattatello, fantasy;
+    font-size: 100px;
+}
+
+/* customize h2 font family  */
+.header2-font {
+    font-family: Party LET;
+    font-size: 40px;
+}
+
+/* customize button */
+.btn-secondary {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: peachpuff;
+    color:white;
+    font-family: Mali;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-secondary:hover{
+    color:#fff;
+    background-color:rgb(255, 96, 181);
+    border-color:rgb(255, 96, 181)}
+
+/* Set the z-index for content and canvas */
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+/* background canvas(Granim Library) */
+#canvas-basic {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* customize modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+.modal-dialog {
+    margin: 10% auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+.modal-title {
+    margin: 0;
+    font-size: 27px;
+    font-family: Trattatello, fantasy;
+  }
+  
+.close {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+.modal-body {
+    padding-top: 10px;
+    
+  }
+

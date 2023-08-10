@@ -1,0 +1,97 @@
+/* CSS */
+body {
+  background-color: #f0f0f0;
+  animation: animatedBackground 10s infinite alternate;
+}
+
+/* Optional: Add more styling to the content within the centered div */
+div {
+  text-align: left;
+  font-size: 18px;
+  margin: left;
+}
+
+img {
+  background-color: #fff;
+  padding: 4px;
+  position: absolute;
+  top: 53%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes animatedBackground {
+  0% { background-color: #f0f0f0; }
+  100% { background-color: #abc123; }
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+.album-details {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#artistName {
+  font-size: 50 px;
+  font-weight: bold;
+}
+
+#releaseDate,
+#countryAvailable {
+  font-size: 24px;
+}
+
+#album-image {
+  max-width: 200px; /* Set the maximum width of the image */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  display: block; /* Ensure the image is displayed as a block element */
+  margin-top: 0.5rem; /* Optionally add some margin on top */
+}
+
+
+
+/* Custom chart styles */
+#chart-container svg {
+  width: 100%;
+  display: block;
+  left: 50%;
+}
+
+#chart-container rect {
+  transition: width 0.3s ease;
+}
+
+#chart-container text {
+  pointer-events: none;
+  user-select: none;
+  left: 50%;
+}
+
+.chart-header {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#chart-container {
+  padding: 20px;
+  left: 50%;
+}
+
