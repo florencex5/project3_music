@@ -1,7 +1,7 @@
 # Music Galaxy
 
 ## Theme
-Music, a versatile language, has the power to evoke emotions and bring people together. Spotify is a music platform that is able to categorize different genres to fit every music taste, which is why they have over 25 genres to listen to. Our flask api was able to unlock the hits for different genres, what countries listen to them, and view how popular they are. And... Welcome to our little music galaxy!
+Music, a versatile language, has the power to evoke emotions and bring people together. Spotify is a music platform that is able to categorize different genres to fit every music taste, which is why they have over 25 genres to listen to. Our flask API was able to unlock the hits for different genres, what countries listen to them, and view how popular they are. And... Welcome to our little music galaxy!
 
 ## Quick Setup
 Create a Spotify’s developer account to get the `CLIENT ID` and `CLIENT SECRETE`([Spotify Developer](https://developer.spotify.com/))
